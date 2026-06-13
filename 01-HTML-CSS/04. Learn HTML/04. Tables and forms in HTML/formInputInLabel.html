@@ -1,0 +1,64 @@
+<!-- 
+Will be in this form         input is inside label block
+
+    <form action="">
+
+        <label>
+
+            <input type="text" name="" id="">
+
+        </label>
+
+    </form> 
+
+In this case FOR of the label is removed completely
+
+In this FOR (of label) (so remove FOR) is already linked to ID (of input)
+
+<label for=""></label>       if you left for empty browser will thinkk that FOR is pointing to emptiness
+
+if we click on label text it will directly tranfer cursor inside input box like text , textarea
+
+##for and id are like key value pair it is for browser 
+##name refer to DB attribute in backend
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend><strong>LOGIN PAGE</strong></legend>
+    <br>
+
+        <form action="">
+            
+            <label>Email : 
+                <input type="email" name="Email" id="">
+            </label>
+            
+            <label>Password : 
+                <input type="password" name="Password" id="">
+            </label>
+            
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Do You Agree To These Terms</strong></legend>
+        <form action="">
+            <label for="Yes"><input type="radio" name="yes" id="Yes" value="1">YES</label>
+            <label for="No"><input type="radio" name="yes" id="No" value="0">No</label>
+            <!-- use value attribute in radio input element for better backend security  
+                 To make one radio selected at a time give same name to radio 
+            -->
+        </form>
+    </fieldset>
+</body>
+</html>
