@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HL City Verified | Transparent Property Platform</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">HL City <span>Verified</span></a>
+  <ul class="nav-links">
+    <li class="nav-hlcity-gap"><a href="about-hlcity.html">About HL City</a></li>
+    <li><a href="listings.html">Listings</a></li>
+    <li><a href="rent.html">Rent</a></li>
+    <li><a href="sell.html">Sell</a></li>
+    <li><a href="how-it-works.html">How It Works</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li class="admin-only"><a href="admin/dashboard.html">Admin ⚙️</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="#" class="btn btn-outline" onclick="handleList(event)">List Property</a>
+    <div id="nav-user-area">
+      <a href="login.html" class="btn btn-blue" id="nav-auth-btn">Login</a>
+    </div>
+  </div>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="about-hlcity.html" onclick="closeMenu()">About HL City</a>
+  <a href="listings.html" onclick="closeMenu()">Listings</a>
+  <a href="rent.html" onclick="closeMenu()">Rent</a>
+  <a href="sell.html" onclick="closeMenu()">Sell</a>
+  <a href="how-it-works.html" onclick="closeMenu()">How It Works</a>
+  <a href="about.html" onclick="closeMenu()">About</a>
+  <a href="contact.html" onclick="closeMenu()">Contact</a>
+  <div id="mob-user-section" class="mob-actions">
+    <a href="#" class="btn btn-outline" onclick="handleList(event);closeMenu()">List Property</a>
+    <a href="login.html" class="btn btn-blue" id="mob-auth-btn">Login</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-badge">Approved Residential Projects Only</div>
+    <h1>A <em>Transparent</em> Platform for<br>Renting &amp; Resale</h1>
+    <p class="hero-sub">A clean property transaction platform focused only on approved residential projects. No price manipulation. No broker games. Just structured execution.</p>
+    <div class="hero-ctas">
+      <a href="listings.html" class="btn btn-blue btn-lg">Browse Properties</a>
+      <a href="#" class="btn btn-outline btn-lg" onclick="handleList(event)">List Your Property</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num" id="stat-count">—</div><div class="stat-label">Active Listings</div></div>
+      <div><div class="stat-num">100%</div><div class="stat-label">Verified Projects</div></div>
+      <div><div class="stat-num">Fixed</div><div class="stat-label">Transparent Fees</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hr-grid"></div>
+    <div class="hr-content">
+      <div class="hr-card">
+        <div class="hrc-label">Platform Promise</div>
+        <div class="hrc-val">No Hidden Margins</div>
+        <div class="hrc-sub">Fixed fees · Owner-driven pricing</div>
+        <div class="hrc-badge">✓ HL City Verified</div>
+      </div>
+      <div class="hr-card">
+        <div class="hrc-label">How We Work</div>
+        <div class="hrc-grid">
+          <div><div class="hrc-step-t">Submit</div><div class="hrc-step-d">List your property</div></div>
+          <div><div class="hrc-step-t">Verify</div><div class="hrc-step-d">Legal team reviews</div></div>
+          <div><div class="hrc-step-t">Match</div><div class="hrc-step-d">Buyer coordination</div></div>
+          <div><div class="hrc-step-t">Close</div><div class="hrc-step-d">Agreement executed</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wwd-inner">
+    <div>
+      <div class="eyebrow">What We Do</div>
+      <h2 class="sec-h">One platform.<br>Three core services.</h2>
+      <p class="sec-p">We stay involved until terms are finalized and agreements are signed — ensuring discipline, clarity, and closure.</p>
+    </div>
+    <div class="wwd-cards">
+      <div class="wwd-card"><div class="wwd-icon">🏠</div><div class="wwd-title">Renting</div><p class="wwd-text">We connect owners and tenants through a structured process, ensuring clear terms and proper documentation without ongoing maintenance involvement.</p></div>
+      <div class="wwd-card"><div class="wwd-icon">💰</div><div class="wwd-title">Resale</div><p class="wwd-text">Fixed, transparent fees instead of percentage-based brokerage, eliminating price inflation and hidden margins.</p></div>
+      <div class="wwd-card"><div class="wwd-icon">📋</div><div class="wwd-title">Execution Support</div><p class="wwd-text">We stay involved until terms are finalized and agreements are signed — ensuring discipline, clarity, and closure.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="eyebrow"><span></span>&nbsp;Why We Exist</div>
+  <h2 class="sec-h">The market is broken.<br>We fix the <em>process</em>.</h2>
+  <div class="why-grid">
+    <div>
+      <div class="why-point"><div class="why-num">01</div><div><div class="why-ptitle">Price Manipulation</div><p class="why-ptext">Local markets suffer from systematic price manipulation that benefits brokers at the expense of owners and buyers.</p></div></div>
+      <div class="why-point"><div class="why-num">02</div><div><div class="why-ptitle">Information Asymmetry</div><p class="why-ptext">Information asymmetry benefits brokers, not owners or buyers. We make information transparent for all parties.</p></div></div>
+      <div class="why-point"><div class="why-num">03</div><div><div class="why-ptitle">Lack of Process Clarity</div><p class="why-ptext">Tenants and buyers lack clarity on process, pricing, and timelines. We bring structure to every transaction.</p></div></div>
+    </div>
+    <div class="why-box">
+      <p class="why-box-q">We exist to fix the <em>process</em>, not to become another broker.</p>
+      <p class="why-box-p">We are a transaction-focused platform limited to renting and resale within approved residential projects — where the asset is trusted, but the process is not.</p>
+      <a href="about.html" class="btn btn-ghost-w">Learn More →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="how-header">
+    <div><div class="eyebrow">How It Works</div><h2 class="sec-h">Four steps to a clean transaction.</h2></div>
+    <a href="how-it-works.html" class="link-arrow">Full Process →</a>
+  </div>
+  <div class="how-steps">
+    <div class="how-step"><div class="step-num">01</div><div class="step-icon">📝</div><div class="step-title">Listing / Requirement</div><p class="step-text">Owners list their property or tenants submit requirements through our platform.</p></div>
+    <div class="how-step"><div class="step-num">02</div><div class="step-icon">✅</div><div class="step-title">Verification &amp; Approval</div><p class="step-text">Our legal team verifies the listed property and processes it for approval.</p></div>
+    <div class="how-step"><div class="step-num">03</div><div class="step-icon">🤝</div><div class="step-title">Matching &amp; Terms</div><p class="step-text">We coordinate discussions, price alignment, and terms — remaining the front face.</p></div>
+    <div class="how-step"><div class="step-num">04</div><div class="step-icon">🔏</div><div class="step-title">Agreement &amp; Exit</div><p class="step-text">We help prepare all required documents and exit after successful closure.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="feat-header">
+    <div><div class="eyebrow">Featured Listings</div><h2 class="sec-h">Verified properties, ready for you.</h2></div>
+    <a href="listings.html" class="link-arrow">View All →</a>
+  </div>
+  <div class="listings-grid" id="feat-grid">
+    <div><div></div><div><div></div><div></div></div></div>
+    <div><div></div><div><div></div><div></div></div></div>
+    <div><div></div><div><div></div><div></div></div></div>
+  </div>
+</section>
+
+<div class="cta-strip">
+  <div>
+    <h2>Ready to list your <em>property?</em></h2>
+    <p>Join our verified platform — no broker inflation, just structured execution.</p>
+  </div>
+  <div class="cta-btns">
+    <a href="#" class="btn btn-white btn-lg" onclick="handleList(event)">List Property</a>
+    <a href="contact.html" class="btn btn-ghost-w btn-lg">Contact Us</a>
+  </div>
+</div>
+
+<footer>
+  <div class="foot-grid">
+    <div><div class="foot-logo">HL City <span>Verified</span></div><p class="foot-desc">A transaction-focused property platform, not a brokerage firm.</p><p class="foot-email">📧 hlcityverified@gmail.com</p></div>
+    <div class="foot-col"><h4>Platform</h4><ul><li><a href="listings.html">Browse Listings</a></li><li><a href="#" onclick="handleList(event)">List Property</a></li><li><a href="my-listings.html">My Submissions</a></li><li><a href="profile.html">My Profile</a></li></ul></div>
+    <div class="foot-col"><h4>Services</h4><ul><li><a href="rent.html">Rent</a></li><li><a href="sell.html">Sell</a></li><li><a href="how-it-works.html">How It Works</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="foot-col"><h4>Support</h4><ul><li><a href="contact.html">Contact Us</a></li><li><a href="admin/dashboard.html" class="admin-only">Admin Panel</a></li></ul></div>
+  </div>
+  <div class="foot-bottom"><div class="foot-copy">© 2026 HL City Verified. All rights reserved.</div><div class="foot-legal"><a href="#">Privacy</a><a href="#">Terms</a></div></div>
+</footer>
+<div id="toast"></div>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="shared.js"></script>
+</body>
+</html>
