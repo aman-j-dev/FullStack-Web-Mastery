@@ -1,0 +1,1461 @@
+WEBVTT
+
+1
+00:00:00.640 --> 00:00:02.846
+This is going to be probably the
+
+2
+00:00:02.846 --> 00:00:04.510
+last video in the HTML section.
+
+3
+00:00:04.510 --> 00:00:07.351
+We have done pretty good job in the learning the HTML
+
+4
+00:00:07.351 --> 00:00:08.982
+and quite a fast pace as well.
+
+5
+00:00:08.982 --> 00:00:11.254
+But don't worry if you feel anything is missing or you
+
+6
+00:00:11.254 --> 00:00:14.918
+need some more explanation on any topic at all, just reach
+
+7
+00:00:14.918 --> 00:00:17.462
+me out either on Twitter or LinkedIn and I'll add more
+
+8
+00:00:17.462 --> 00:00:20.342
+content if it is required or if it is necessary.
+
+9
+00:00:20.342 --> 00:00:22.694
+The whole point of this entire section is to
+
+10
+00:00:22.694 --> 00:00:25.118
+make sure that you get comfortable with HTML and
+
+11
+00:00:25.118 --> 00:00:27.742
+nobody can learn everything on just one go.
+
+12
+00:00:27.742 --> 00:00:29.854
+But we have still some of the topics that we
+
+13
+00:00:29.854 --> 00:00:31.478
+can discuss and I can show you some of the
+
+14
+00:00:31.478 --> 00:00:34.406
+power that you can actually have in the, in the
+
+15
+00:00:34.406 --> 00:00:37.134
+HTML and can do a little bit more on that,
+
+16
+00:00:37.134 --> 00:00:40.038
+especially the part of semantics, adding some of the media
+
+17
+00:00:40.038 --> 00:00:43.078
+content and some of the ARIA labels as well.
+
+18
+00:00:43.078 --> 00:00:46.134
+So we have a lot to cover and it's going to be all fun.
+
+19
+00:00:46.134 --> 00:00:48.694
+This video is moreover going to be a study part.
+
+20
+00:00:48.694 --> 00:00:50.686
+Together we'll figure out some documentation.
+
+21
+00:00:50.686 --> 00:00:51.990
+I'll walk you through with some of the
+
+22
+00:00:51.990 --> 00:00:54.768
+exercises, some of the other websites which are
+
+23
+00:00:54.768 --> 00:00:57.432
+useful and moreover general in talk.
+
+24
+00:00:57.432 --> 00:01:00.224
+So stay down a little bit low, you can enjoy.
+
+25
+00:01:00.224 --> 00:01:02.912
+This is not going to be a code heavy centric video.
+
+26
+00:01:02.912 --> 00:01:04.703
+We will do that later on in the course.
+
+27
+00:01:04.703 --> 00:01:06.416
+But right now this is enough.
+
+28
+00:01:06.416 --> 00:01:09.632
+Let me go ahead and share some of the data up here.
+
+29
+00:01:09.632 --> 00:01:12.008
+So we have gone through with all of this and this
+
+30
+00:01:12.008 --> 00:01:15.256
+is all okay, and I'll create a new file just because
+
+31
+00:01:15.256 --> 00:01:17.344
+I want to show you some of the more fun stuff.
+
+32
+00:01:17.344 --> 00:01:19.336
+And we'll be working with that.
+
+33
+00:01:19.336 --> 00:01:22.630
+Let's call this one as media HTML.
+
+34
+00:01:22.630 --> 00:01:24.334
+So as soon as I go ahead and add a
+
+35
+00:01:24.334 --> 00:01:26.918
+media HTML, let's go ahead and the basics and let's
+
+36
+00:01:26.918 --> 00:01:29.930
+call this one as simply media, not media.
+
+37
+00:01:31.870 --> 00:01:33.070
+There we go.
+
+38
+00:01:33.070 --> 00:01:34.110
+And why not?
+
+39
+00:01:34.110 --> 00:01:35.870
+Let's just add an h one.
+
+40
+00:01:35.870 --> 00:01:38.670
+This is media learning.
+
+41
+00:01:38.670 --> 00:01:40.070
+It's not just a media learning.
+
+42
+00:01:40.070 --> 00:01:41.294
+There's so much more that I want
+
+43
+00:01:41.294 --> 00:01:43.190
+to go through and work with that.
+
+44
+00:01:43.190 --> 00:01:47.056
+Now, one thing which I want to go through here is
+
+45
+00:01:47.056 --> 00:01:49.056
+some of the elements here on the left hand side.
+
+46
+00:01:49.056 --> 00:01:51.216
+So let me just go ahead and move this a little bit
+
+47
+00:01:51.216 --> 00:01:54.240
+so that we can all see it together and work with that.
+
+48
+00:01:54.240 --> 00:01:56.304
+So if I go ahead and say get started with
+
+49
+00:01:56.304 --> 00:01:58.456
+the web, this is all that we have gone through.
+
+50
+00:01:58.456 --> 00:02:01.176
+We will learn quite a lot in here as well.
+
+51
+00:02:01.176 --> 00:02:03.720
+If I go ahead and open up the introduction to HTML.
+
+52
+00:02:03.720 --> 00:02:05.712
+Yes, we have studied a lot, but just
+
+53
+00:02:05.712 --> 00:02:09.072
+apart from introduction to HTML, there is media,
+
+54
+00:02:09.072 --> 00:02:11.400
+there is tables, there's CSS, there's JavaScript.
+
+55
+00:02:11.400 --> 00:02:12.440
+No, we're not going to study
+
+56
+00:02:12.440 --> 00:02:15.280
+the CSS and JavaScript from here. Very confusing.
+
+57
+00:02:15.280 --> 00:02:16.968
+We'll be learning it from a different resource.
+
+58
+00:02:16.968 --> 00:02:18.256
+But what I want to go through with
+
+59
+00:02:18.256 --> 00:02:20.760
+this is first of all, this multimedia.
+
+60
+00:02:20.760 --> 00:02:22.824
+If you go ahead and look onto the multimedia, so
+
+61
+00:02:22.824 --> 00:02:25.080
+far we have learned that how we can add images,
+
+62
+00:02:25.080 --> 00:02:28.536
+adding images in any web page is fairly easy.
+
+63
+00:02:28.536 --> 00:02:30.816
+And most of the time this is the code that we have
+
+64
+00:02:30.816 --> 00:02:33.928
+seen images with a source and then there is an alt.
+
+65
+00:02:33.928 --> 00:02:35.096
+Let's go ahead and figure out how
+
+66
+00:02:35.096 --> 00:02:37.024
+we can actually learn and see that.
+
+67
+00:02:37.024 --> 00:02:38.552
+So we have already gone through that.
+
+68
+00:02:38.552 --> 00:02:41.248
+I can have an image tag and inside this I can
+
+69
+00:02:41.248 --> 00:02:44.888
+go into the images folder and can use etc PNG.
+
+70
+00:02:44.888 --> 00:02:47.308
+This image is fairly big, so we'll just go ahead and
+
+71
+00:02:47.308 --> 00:02:50.204
+add a width attribute of, let's just say 200 pixel is
+
+72
+00:02:50.204 --> 00:02:52.748
+good enough, so we'll just add a 200 pixel.
+
+73
+00:02:52.748 --> 00:02:54.956
+This alt is an alternative tag in
+
+74
+00:02:54.956 --> 00:02:56.876
+the case where images couldn't load up.
+
+75
+00:02:56.876 --> 00:03:00.956
+So I'll just go ahead and say profile photo and
+
+76
+00:03:00.956 --> 00:03:05.396
+for some reason this image is called as hc.png,
+
+77
+00:03:05.396 --> 00:03:08.052
+but somehow you have saved it as scc.png.
+
+78
+00:03:08.052 --> 00:03:10.828
+That's obviously a typo, a mistake, or maybe due to some
+
+79
+00:03:10.828 --> 00:03:13.316
+reason server was not able to give you the image.
+
+80
+00:03:13.316 --> 00:03:15.204
+If I go ahead and right click and open this up
+
+81
+00:03:15.204 --> 00:03:17.956
+in the live server, notice here it says profile photo.
+
+82
+00:03:17.956 --> 00:03:20.076
+But as soon as this image actually sees
+
+83
+00:03:20.076 --> 00:03:21.436
+a write path and it is able to
+
+84
+00:03:21.436 --> 00:03:23.940
+load that image, that alt tag goes away.
+
+85
+00:03:23.940 --> 00:03:25.660
+And sometimes you're going to figure out that
+
+86
+00:03:25.660 --> 00:03:27.196
+just below this you want to add a
+
+87
+00:03:27.196 --> 00:03:30.788
+paragraph or something that hey, some name like
+
+88
+00:03:30.788 --> 00:03:34.860
+this that's there, you can actually do that.
+
+89
+00:03:34.860 --> 00:03:37.348
+But in the world of HTML, there is always
+
+90
+00:03:37.348 --> 00:03:39.708
+a tiny bit better way of doing the things.
+
+91
+00:03:39.708 --> 00:03:42.112
+For example, if I go ahead and look for it, yes,
+
+92
+00:03:42.112 --> 00:03:45.560
+this is all that's written in a whole lot of documentation.
+
+93
+00:03:45.560 --> 00:03:47.296
+And this image, and by the way, in case you
+
+94
+00:03:47.296 --> 00:03:49.728
+missed it, yes, we can still add a title here
+
+95
+00:03:49.728 --> 00:03:52.288
+and then can go ahead and say hitesh.
+
+96
+00:03:52.288 --> 00:03:54.288
+If I go back onto this one and click
+
+97
+00:03:54.288 --> 00:03:57.136
+on this, hover over this, it says Hitesh.
+
+98
+00:03:57.136 --> 00:03:58.816
+So that is still there.
+
+99
+00:03:58.816 --> 00:04:00.912
+But what I want to show you is there is
+
+100
+00:04:00.912 --> 00:04:02.984
+more ways of how you can add images and there
+
+101
+00:04:02.984 --> 00:04:05.712
+are variety of images that you can also add.
+
+102
+00:04:05.712 --> 00:04:09.088
+Png, jpegs, svgs and each version of the
+
+103
+00:04:09.088 --> 00:04:11.700
+image has some pros and some cons.
+
+104
+00:04:11.700 --> 00:04:14.636
+Webp, there's so much of the format, but what
+
+105
+00:04:14.636 --> 00:04:17.548
+we're going to see here, if you actually scroll
+
+106
+00:04:17.548 --> 00:04:19.995
+a little bit more and that's a little bit
+
+107
+00:04:19.995 --> 00:04:21.596
+difficult to actually go through with.
+
+108
+00:04:21.596 --> 00:04:25.716
+This is there is another image tag that you can use.
+
+109
+00:04:25.716 --> 00:04:27.988
+It's rarely being used, but semantic
+
+110
+00:04:27.988 --> 00:04:29.732
+says you should be using it.
+
+111
+00:04:29.732 --> 00:04:31.036
+Oh man, give me this.
+
+112
+00:04:31.036 --> 00:04:32.324
+This is what it is.
+
+113
+00:04:32.324 --> 00:04:34.308
+So there's another image which you can
+
+114
+00:04:34.308 --> 00:04:36.196
+actually roll up the entire figure.
+
+115
+00:04:36.196 --> 00:04:38.340
+So I'll just copy this and we'll
+
+116
+00:04:38.340 --> 00:04:40.740
+see this here just below this Hitesh.
+
+117
+00:04:40.740 --> 00:04:44.260
+So what this tag actually does, this is a figure tag.
+
+118
+00:04:44.260 --> 00:04:45.308
+There we go.
+
+119
+00:04:45.308 --> 00:04:48.068
+This figure tag has this image tag, and
+
+120
+00:04:48.068 --> 00:04:50.308
+then we have a fig caption as well.
+
+121
+00:04:50.308 --> 00:04:52.100
+So this is a nice and interesting tag.
+
+122
+00:04:52.100 --> 00:04:53.484
+You can have an alt, we have
+
+123
+00:04:53.484 --> 00:04:54.884
+the width, height, all of these things.
+
+124
+00:04:54.884 --> 00:04:56.916
+I'll remove the height, we don't need it.
+
+125
+00:04:56.916 --> 00:05:00.716
+I'll also go ahead and add this one as just the 200.
+
+126
+00:05:00.716 --> 00:05:02.084
+And this is a really long
+
+127
+00:05:02.084 --> 00:05:03.852
+alt text, which can be anything.
+
+128
+00:05:03.852 --> 00:05:05.404
+But in this case, I'll just go ahead
+
+129
+00:05:05.404 --> 00:05:08.100
+and say, hey, we'll be adding images.
+
+130
+00:05:08.640 --> 00:05:11.920
+And inside that we'll be just going with hc.png.
+
+131
+00:05:11.920 --> 00:05:14.056
+Now in the fig caption, although it's a t
+
+132
+00:05:14.056 --> 00:05:15.920
+rex caption, but I'll keep it as it is
+
+133
+00:05:15.920 --> 00:05:18.160
+and I'll go back here and see what happens.
+
+134
+00:05:18.160 --> 00:05:20.600
+Notice here, this is little different.
+
+135
+00:05:20.600 --> 00:05:23.368
+And this whole thing is just one part, this image along
+
+136
+00:05:23.368 --> 00:05:26.104
+with the caption, this is considered as just one unit.
+
+137
+00:05:26.104 --> 00:05:28.560
+So this consideration is all the figure is.
+
+138
+00:05:28.560 --> 00:05:30.656
+And figure not only just have source, we
+
+139
+00:05:30.656 --> 00:05:32.280
+have more ways of loading the source.
+
+140
+00:05:32.280 --> 00:05:33.592
+If you go ahead and look for it,
+
+141
+00:05:33.592 --> 00:05:35.200
+there are more ways of adding the things.
+
+142
+00:05:35.200 --> 00:05:36.744
+There's even a source set.
+
+143
+00:05:36.744 --> 00:05:38.770
+And programmatically you can add multiple
+
+144
+00:05:38.770 --> 00:05:41.194
+images like pngs, jpegs, webp.
+
+145
+00:05:41.194 --> 00:05:43.570
+There's so much more optimization you can do.
+
+146
+00:05:43.570 --> 00:05:46.058
+But that optimization cannot be taught right here.
+
+147
+00:05:46.058 --> 00:05:47.802
+That needs to come in the JavaScript
+
+148
+00:05:47.802 --> 00:05:49.602
+section so that you can work more.
+
+149
+00:05:49.602 --> 00:05:52.490
+This optimization or this piece of code, again, I cannot
+
+150
+00:05:52.490 --> 00:05:54.442
+teach you right now because it's a CSS part.
+
+151
+00:05:54.442 --> 00:05:56.250
+I cannot involve CSS in the HTML
+
+152
+00:05:56.250 --> 00:05:57.794
+section, but you get the idea.
+
+153
+00:05:57.794 --> 00:06:00.546
+There is so much more to explore, not just the images.
+
+154
+00:06:00.546 --> 00:06:02.722
+If you go ahead and look for the video content, you
+
+155
+00:06:02.722 --> 00:06:04.890
+can actually go ahead and load the videos as well.
+
+156
+00:06:04.890 --> 00:06:06.642
+Notice here, here's the source code.
+
+157
+00:06:06.642 --> 00:06:08.578
+This is how you actually add the video.
+
+158
+00:06:08.578 --> 00:06:09.906
+Let's go ahead and try this out.
+
+159
+00:06:09.906 --> 00:06:12.470
+I've already added a video in the images section,
+
+160
+00:06:13.010 --> 00:06:14.898
+so let's go ahead and add a video and
+
+161
+00:06:14.898 --> 00:06:16.922
+see how it works and how it goes.
+
+162
+00:06:16.922 --> 00:06:19.154
+So for this, I'll just go ahead and add a video.
+
+163
+00:06:19.154 --> 00:06:20.298
+It's asking for a source.
+
+164
+00:06:20.298 --> 00:06:23.402
+So I'll go into the images and inside
+
+165
+00:06:23.402 --> 00:06:25.178
+that, this is the name of the video.
+
+166
+00:06:25.178 --> 00:06:27.610
+Let's go ahead and try to see how it looks like.
+
+167
+00:06:27.610 --> 00:06:30.250
+And it's pretty big video. You can see this? Yeah.
+
+168
+00:06:30.250 --> 00:06:31.586
+This whole black thing.
+
+169
+00:06:31.586 --> 00:06:33.280
+Yeah, that's, that's a video.
+
+170
+00:06:33.280 --> 00:06:36.560
+And how does this video works? No idea.
+
+171
+00:06:36.560 --> 00:06:38.680
+If I click on it, nothing happens.
+
+172
+00:06:38.680 --> 00:06:40.464
+So whenever there's a video tag, there is
+
+173
+00:06:40.464 --> 00:06:42.576
+an additional attribute that you have to inject.
+
+174
+00:06:42.576 --> 00:06:45.496
+And this attribute is known as controls.
+
+175
+00:06:45.496 --> 00:06:48.928
+So the moment I just add this controls just right here, notice
+
+176
+00:06:48.928 --> 00:06:51.944
+here now we have at the bottom, I can play the video,
+
+177
+00:06:51.944 --> 00:06:54.920
+I can stop the video, I have all these controls.
+
+178
+00:06:54.920 --> 00:06:56.784
+Further, we have studied with our previous
+
+179
+00:06:56.784 --> 00:06:58.848
+knowledge that we have this width attribute.
+
+180
+00:06:58.848 --> 00:07:00.384
+Can it be added to video?
+
+181
+00:07:00.384 --> 00:07:01.504
+Let's just try it.
+
+182
+00:07:01.504 --> 00:07:03.016
+We can just go ahead and say this one is
+
+183
+00:07:03.016 --> 00:07:05.976
+going to be 400 pixels, save this, come back here.
+
+184
+00:07:05.976 --> 00:07:07.728
+Yeah, it works nicely there.
+
+185
+00:07:07.728 --> 00:07:09.528
+As I said, videos and
+
+186
+00:07:09.528 --> 00:07:11.608
+everything are controls like that.
+
+187
+00:07:11.608 --> 00:07:13.416
+You can just click on it and say hey, there's
+
+188
+00:07:13.416 --> 00:07:15.848
+a download, there's a playback, there's a picture in picture.
+
+189
+00:07:15.848 --> 00:07:17.528
+Maybe I don't want picture in picture.
+
+190
+00:07:17.528 --> 00:07:19.568
+How can I avoid it for this?
+
+191
+00:07:19.568 --> 00:07:20.904
+Let's just study the video tag.
+
+192
+00:07:20.904 --> 00:07:23.496
+How does the video tag looks like? So there we go.
+
+193
+00:07:23.496 --> 00:07:25.744
+We can see there is a source, there's a controls.
+
+194
+00:07:25.744 --> 00:07:27.770
+Let's see if I click on the controls.
+
+195
+00:07:27.770 --> 00:07:29.250
+Oh, there's a control.
+
+196
+00:07:29.250 --> 00:07:32.650
+And can I see and get more attributes to the control?
+
+197
+00:07:32.650 --> 00:07:34.106
+Oh, there's a control list.
+
+198
+00:07:34.106 --> 00:07:35.282
+Let's see this.
+
+199
+00:07:35.282 --> 00:07:37.178
+So if I go ahead and look for it, yeah,
+
+200
+00:07:37.178 --> 00:07:40.890
+that's lot of definitions, lot of things going on.
+
+201
+00:07:40.890 --> 00:07:42.914
+This is moreover a part that I
+
+202
+00:07:42.914 --> 00:07:45.322
+can, I'm interested in control list.
+
+203
+00:07:45.322 --> 00:07:46.810
+And I can just copy this and
+
+204
+00:07:46.810 --> 00:07:49.026
+have all the things that I want.
+
+205
+00:07:49.026 --> 00:07:50.730
+Copy this, come back here.
+
+206
+00:07:50.730 --> 00:07:52.362
+And this is my control list.
+
+207
+00:07:52.362 --> 00:07:56.534
+No full screen, no download, no remote playback, some foobar
+
+208
+00:07:56.534 --> 00:07:59.582
+so I can have my custom controls as well.
+
+209
+00:07:59.582 --> 00:08:00.806
+But let's just say I don't want to
+
+210
+00:08:00.806 --> 00:08:03.590
+give a full screen option for some reason.
+
+211
+00:08:03.590 --> 00:08:05.662
+I can just go, this is how you learn.
+
+212
+00:08:05.662 --> 00:08:07.126
+And once you have learned it here, you
+
+213
+00:08:07.126 --> 00:08:08.758
+don't need to look back it again.
+
+214
+00:08:08.758 --> 00:08:11.134
+And there is only limited things that you have to go.
+
+215
+00:08:11.134 --> 00:08:13.294
+If I go back onto the media now, there is
+
+216
+00:08:13.294 --> 00:08:17.342
+no download option if I want to say no download,
+
+217
+00:08:17.342 --> 00:08:19.142
+so I can just go ahead and see this.
+
+218
+00:08:19.142 --> 00:08:21.340
+And now the download option, oops,
+
+219
+00:08:21.340 --> 00:08:23.548
+it was supposed to go sometime.
+
+220
+00:08:23.548 --> 00:08:25.828
+It doesn't work because it
+
+221
+00:08:25.828 --> 00:08:27.068
+requires a lot of JavaScript.
+
+222
+00:08:27.068 --> 00:08:29.668
+So I can just refresh it and click on it.
+
+223
+00:08:29.668 --> 00:08:31.132
+It still says download.
+
+224
+00:08:31.132 --> 00:08:33.268
+So probably we need to add more of it.
+
+225
+00:08:33.268 --> 00:08:35.080
+Let's see what's going on there.
+
+226
+00:08:35.900 --> 00:08:38.563
+So it's a controls list and we have to add
+
+227
+00:08:38.563 --> 00:08:41.220
+all of these, probably have to work with this.
+
+228
+00:08:41.220 --> 00:08:43.556
+Now some of these controls actually can
+
+229
+00:08:43.556 --> 00:08:46.076
+be injected only with the JavaScript.
+
+230
+00:08:46.076 --> 00:08:47.884
+Look at here, video attributes and
+
+231
+00:08:47.884 --> 00:08:49.372
+you can have the control list.
+
+232
+00:08:49.372 --> 00:08:51.108
+Some of them works, some of them doesn't work.
+
+233
+00:08:51.108 --> 00:08:52.324
+So we can actually control a
+
+234
+00:08:52.324 --> 00:08:53.780
+lot of things with the programming.
+
+235
+00:08:53.780 --> 00:08:56.356
+The whole idea behind showing you all of this is that
+
+236
+00:08:56.356 --> 00:08:58.468
+hey, there's so much more that we can go ahead and
+
+237
+00:08:58.468 --> 00:09:01.396
+work on with this, not just the video, but there's so
+
+238
+00:09:01.396 --> 00:09:03.436
+much more that we can actually go ahead.
+
+239
+00:09:03.436 --> 00:09:05.580
+Similarly, we can go ahead and learn about the audio.
+
+240
+00:09:05.580 --> 00:09:06.820
+How can we add that?
+
+241
+00:09:06.820 --> 00:09:08.828
+So whenever you need that audio, whenever you
+
+242
+00:09:08.828 --> 00:09:10.564
+need that video, that is the time when
+
+243
+00:09:10.564 --> 00:09:12.380
+you actually go ahead and study about them.
+
+244
+00:09:12.380 --> 00:09:14.844
+That is the point where you learn about them.
+
+245
+00:09:14.844 --> 00:09:16.712
+And as we go through, we have enough of projects in
+
+246
+00:09:16.712 --> 00:09:19.928
+the JavaScript and in the CSS and in the react and
+
+247
+00:09:19.928 --> 00:09:22.840
+all these things that you'll be feeling much more comfortable.
+
+248
+00:09:22.840 --> 00:09:24.192
+So don't worry too much about it.
+
+249
+00:09:24.192 --> 00:09:25.848
+So notice here there's a video controls.
+
+250
+00:09:25.848 --> 00:09:27.512
+We can have multiple sources.
+
+251
+00:09:27.512 --> 00:09:30.176
+There's so much more that we can do up here.
+
+252
+00:09:30.176 --> 00:09:32.192
+So this is the basics, this is the part
+
+253
+00:09:32.192 --> 00:09:36.008
+one of how you can have these images, videos
+
+254
+00:09:36.008 --> 00:09:37.928
+and audios and all of these things.
+
+255
+00:09:37.928 --> 00:09:39.256
+One more thing that I would like to
+
+256
+00:09:39.256 --> 00:09:41.056
+walk you through with this, although we have
+
+257
+00:09:41.056 --> 00:09:43.632
+covered pretty much almost that is required.
+
+258
+00:09:43.632 --> 00:09:45.780
+But there is also one more thing that you'll hear
+
+259
+00:09:45.780 --> 00:09:48.588
+quite a lot, which is known as Aria tags.
+
+260
+00:09:48.588 --> 00:09:50.972
+Now ArIa tags are totally and totally
+
+261
+00:09:50.972 --> 00:09:53.756
+associated with the accessibility notice here it
+
+262
+00:09:53.756 --> 00:09:56.020
+says accessible rich Internet application.
+
+263
+00:09:56.020 --> 00:09:58.108
+Yeah, that's the full form of Aria.
+
+264
+00:09:58.108 --> 00:10:01.292
+So if you want to make any web application very rich
+
+265
+00:10:01.292 --> 00:10:04.588
+so that any device can actually operate and any device can
+
+266
+00:10:04.588 --> 00:10:07.444
+serve that, that's where you take care of the aria.
+
+267
+00:10:07.444 --> 00:10:09.956
+This is a research field on its own and
+
+268
+00:10:09.956 --> 00:10:12.658
+there are engineers who are dedicated just for ARIA.
+
+269
+00:10:12.658 --> 00:10:15.208
+So that application is accessible on all platform.
+
+270
+00:10:15.208 --> 00:10:17.656
+It's a separate job role on its own, but we
+
+271
+00:10:17.656 --> 00:10:19.736
+cannot do all of this, but we will try to
+
+272
+00:10:19.736 --> 00:10:21.536
+see at least a little bit of it.
+
+273
+00:10:21.536 --> 00:10:23.392
+Notice here, these are all ARIA
+
+274
+00:10:23.392 --> 00:10:25.232
+labels, these are just attributes.
+
+275
+00:10:25.232 --> 00:10:26.904
+So role progress bar.
+
+276
+00:10:26.904 --> 00:10:29.224
+So it expects that every element that you are
+
+277
+00:10:29.224 --> 00:10:31.264
+putting up here needs to have some kind of
+
+278
+00:10:31.264 --> 00:10:33.264
+a role, some kind of Aria label so that
+
+279
+00:10:33.264 --> 00:10:35.544
+all the readers can actually read here.
+
+280
+00:10:35.544 --> 00:10:37.808
+So notice here the ids, the references,
+
+281
+00:10:37.808 --> 00:10:40.032
+there's so much more to learn about
+
+282
+00:10:40.032 --> 00:10:42.136
+them and there's even a guidelines.
+
+283
+00:10:42.136 --> 00:10:44.502
+So whenever you're making any application which is centric
+
+284
+00:10:44.502 --> 00:10:47.766
+towards banking application or government websites, this is the
+
+285
+00:10:47.766 --> 00:10:49.950
+part where we come and study about it.
+
+286
+00:10:49.950 --> 00:10:51.710
+Can somebody access the entire
+
+287
+00:10:51.710 --> 00:10:52.830
+website just with a keyboard?
+
+288
+00:10:52.830 --> 00:10:54.982
+Can somebody access it through
+
+289
+00:10:54.982 --> 00:10:57.294
+the speech recognization software?
+
+290
+00:10:57.294 --> 00:10:58.518
+And so much more.
+
+291
+00:10:58.518 --> 00:11:00.366
+And again, you don't need to go much about it,
+
+292
+00:11:00.366 --> 00:11:02.926
+but I want to give you a healthy information that
+
+293
+00:11:02.926 --> 00:11:04.982
+hey, there's so much more to learn about it.
+
+294
+00:11:04.982 --> 00:11:07.318
+And yes, there are people and there are still workshops
+
+295
+00:11:07.318 --> 00:11:10.950
+which happens on the HTML itself and people study, learn
+
+296
+00:11:10.950 --> 00:11:12.838
+one or two things in that as well.
+
+297
+00:11:12.838 --> 00:11:14.974
+But for you, you don't need to do that.
+
+298
+00:11:14.974 --> 00:11:16.950
+There is no point of going too much
+
+299
+00:11:16.950 --> 00:11:19.030
+in depth of HTML as of now.
+
+300
+00:11:19.030 --> 00:11:21.822
+All you need to know right now is that yes, there is
+
+301
+00:11:21.822 --> 00:11:24.870
+an aria, I can study more about it if it is required.
+
+302
+00:11:24.870 --> 00:11:26.862
+Yes there are videos and audio controls, I
+
+303
+00:11:26.862 --> 00:11:28.654
+can learn more about it if needed.
+
+304
+00:11:28.654 --> 00:11:29.686
+I know there are images.
+
+305
+00:11:29.686 --> 00:11:31.118
+There are two ways of handling the
+
+306
+00:11:31.118 --> 00:11:33.054
+images, the image tag or figure tag.
+
+307
+00:11:33.054 --> 00:11:36.662
+I'll figure out when I need it and I'll just use that.
+
+308
+00:11:36.662 --> 00:11:38.050
+Rest of the things are pretty easy.
+
+309
+00:11:38.050 --> 00:11:40.058
+We now know that there are headings, the
+
+310
+00:11:40.058 --> 00:11:42.266
+list, the tables, the forms, these are the
+
+311
+00:11:42.266 --> 00:11:43.946
+major ones that you will be interacting.
+
+312
+00:11:43.946 --> 00:11:46.490
+But if there is something more that needed or is
+
+313
+00:11:46.490 --> 00:11:49.170
+required, we will definitely come back and learn about it.
+
+314
+00:11:49.170 --> 00:11:50.266
+That's what we are going to do in the
+
+315
+00:11:50.266 --> 00:11:52.802
+CSS and then in JavaScript, then again in react
+
+316
+00:11:52.802 --> 00:11:54.634
+and then again in some other things.
+
+317
+00:11:54.634 --> 00:11:56.498
+So I think we can call it a day.
+
+318
+00:11:56.498 --> 00:11:58.954
+HTML is all done and I think that
+
+319
+00:11:58.954 --> 00:12:00.530
+is all the good part about it.
+
+320
+00:12:00.530 --> 00:12:03.234
+And go ahead and practice a little bit more.
+
+321
+00:12:03.234 --> 00:12:05.528
+We have a dedicated section for you where we have
+
+322
+00:12:05.528 --> 00:12:08.720
+some practice exercise, some coding exercise where you can try
+
+323
+00:12:08.720 --> 00:12:10.744
+and write some of the HTML on your own.
+
+324
+00:12:10.744 --> 00:12:12.536
+I highly recommend to write it in the code
+
+325
+00:12:12.536 --> 00:12:14.456
+editor so that you get feel you learn some
+
+326
+00:12:14.456 --> 00:12:17.000
+of the keyboard shortcuts and go through with that.
+
+327
+00:12:17.000 --> 00:12:18.368
+But I guess that's it.
+
+328
+00:12:18.368 --> 00:12:20.008
+If you need anything more you can
+
+329
+00:12:20.008 --> 00:12:21.984
+just always come back onto the MDN.
+
+330
+00:12:21.984 --> 00:12:24.840
+And as you have seen, this documentation is much more
+
+331
+00:12:24.840 --> 00:12:27.992
+verbose, much more in depth, so that it teaches you
+
+332
+00:12:27.992 --> 00:12:30.416
+everything and anything that you need to know about it.
+
+333
+00:12:30.416 --> 00:12:32.132
+Again, it looks a little bit complex
+
+334
+00:12:32.132 --> 00:12:33.764
+compared to the W three schools, but
+
+335
+00:12:33.764 --> 00:12:36.364
+the information here is much, much bigger.
+
+336
+00:12:36.364 --> 00:12:37.308
+So go ahead and search
+
+337
+00:12:37.308 --> 00:12:39.564
+for HTML, hypertext, markup language.
+
+338
+00:12:39.564 --> 00:12:41.252
+Come back here if you need anything.
+
+339
+00:12:41.252 --> 00:12:42.700
+For example, you want to find out
+
+340
+00:12:42.700 --> 00:12:44.188
+how many global attributes are there.
+
+341
+00:12:44.188 --> 00:12:45.476
+Just click on it and see
+
+342
+00:12:45.476 --> 00:12:47.652
+how many global attributes are there.
+
+343
+00:12:47.652 --> 00:12:49.540
+Access keys to ids items.
+
+344
+00:12:49.540 --> 00:12:51.556
+Some of them we have studied about like title.
+
+345
+00:12:51.556 --> 00:12:53.316
+We have studied this one, but
+
+346
+00:12:53.316 --> 00:12:55.260
+yes, there are so many more.
+
+347
+00:12:55.260 --> 00:12:57.148
+But yeah, you get the point that this
+
+348
+00:12:57.148 --> 00:12:59.692
+is all enough for us right now.
+
+349
+00:12:59.692 --> 00:13:01.898
+Alright, this was a good discussion with you about
+
+350
+00:13:01.898 --> 00:13:04.210
+the HTML and we'll call this section a day.
+
+351
+00:13:04.210 --> 00:13:05.234
+Yes, congratulations.
+
+352
+00:13:05.234 --> 00:13:06.426
+You have finished a section.
+
+353
+00:13:06.426 --> 00:13:10.146
+You're feeling tiny bit comfortable and okay ish with
+
+354
+00:13:10.146 --> 00:13:12.322
+the HTML part and that's a good sign.
+
+355
+00:13:12.322 --> 00:13:14.018
+You are moving into a really big
+
+356
+00:13:14.018 --> 00:13:16.826
+territory and that's okay HTML part.
+
+357
+00:13:16.826 --> 00:13:19.114
+Let's consider it is as done and if you have
+
+358
+00:13:19.114 --> 00:13:22.458
+finished till here, go ahead, tweet out, take a screenshot
+
+359
+00:13:22.458 --> 00:13:24.786
+or take a photo, take a selfie and tweet me
+
+360
+00:13:24.786 --> 00:13:27.306
+out that hey, we are studying from your resource and
+
+361
+00:13:27.306 --> 00:13:28.450
+we are done with the HTML part.
+
+362
+00:13:28.450 --> 00:13:29.818
+It would be a good motivator for
+
+363
+00:13:29.818 --> 00:13:31.026
+you and for me as well.
+
+364
+00:13:31.026 --> 00:13:32.058
+That's it for this video.
+
+365
+00:13:32.058 --> 00:13:33.210
+Let's catch you up in the next one.
