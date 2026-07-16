@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e7ddca;
+            height: 100vh;
+        }
+        h2{
+            text-align: center;
+        }
+        p , h1 , h2 , h3 , h4 {
+            margin: 2px;
+        }
+        .Box{
+            border: 2px solid brown;
+            width: 300px;
+            height: 200px;
+            margin: 30px auto;
+            padding: 15px;
+        }
+        .ContentBox{
+            box-sizing: content-box;
+            background-color: #e09999;
+        }
+        .BorderBox{
+            box-sizing: border-box;
+            background-color: #6e72da;
+        }
+        .inline-example {
+        display: inline;
+        background-color: #cce6ff;
+        padding: 10px;
+        margin: 10px;
+        /* Inline elements ignore width and height */
+        width: 200px;
+        height: 100px;
+      }
+
+      .block-example {
+        display: block;
+        background-color: #ffccff;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 100px;
+      }
+    </style>
+</head>
+<body>
+    <br>
+    <h2>1. Box Content Box</h2>
+    <br>
+    <div class="Box ContentBox">
+        <h3>This is Box Content Box : Here it will add margin , padding , border width</h3>
+        <br>
+        <p>Width = 300px + 2px*2 + 30px*2 + 15px*2 </p>
+        <p>Width = 334px</p>
+        <p>Height = 200px + 2px*2 + 30px*2 + 15px*2 </p>
+        <p>Height = 234px</p>
+    </div>
+    <br>
+    <h2>2. Box Border Box</h2>
+    <br>
+    <div class="Box BorderBox">
+        <h3>This is Box Border Box : Here it will not anything , Its fixed value</h3>
+        <br>
+        <p>Width = 300px</p>
+        <p>Width is exactly 300px</p>
+        <p>height = 200px</p>
+        <p>height is exactly 200px</p>
+    </div>
+
+    <h2>Inline VS Block Element</h2>
+    <br>
+    <p>
+      This is a paragraph with an
+      <span class="inline-example">inline element</span> inside. Inline elements
+      only take up as much width as necessary and allow other elements next to
+      them.
+    </p>
+
+    <div class="block-example">
+        <p>
+            This is a block-level element. It takes up the full width available and
+            creates a new line before and after it.
+        </p>
+    </div>
+
+</body>
+</html>
